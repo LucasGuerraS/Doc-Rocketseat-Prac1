@@ -1,0 +1,30 @@
+_id: req_0f8af25dfacb46b18d0d9595d9d0ca88
+type: Request
+parentId: wrk_4c014601e8de4ea2a1f24b082d761d3f
+modified: 1662758667980
+created: 1662753972231
+url: "{{ _.baseURL }}/users"
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Lucas",
+    	"username": "LKZ"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_731ae9c04f70463bb746255f5f3fb9d5
+authentication: {}
+metaSortKey: -1662753972231
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_aed48493bf2a400fbd8832d31c9a880a
+type: Request
+parentId: wrk_4c014601e8de4ea2a1f24b082d761d3f
+modified: 1662757730057
+created: 1662757654783
+url: "{{ _.baseURL }}/todos/d15a05c1-fc8e-4fb3-90ae-93f2d3818fd0/done"
+name: Alter Done
+description: ""
+method: PATCH
+body: {}
+parameters: []
+headers:
+  - id: pair_029e3709f785434e8dbd9c6a14d46065
+    name: username
+    value: LKZ
+    description: ""
+authentication: {}
+metaSortKey: -1662757654783
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

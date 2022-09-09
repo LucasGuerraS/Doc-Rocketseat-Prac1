@@ -1,0 +1,34 @@
+_id: req_c1c87fb6f7a841efb7c4fe4d9b0c7608
+type: Request
+parentId: wrk_4c014601e8de4ea2a1f24b082d761d3f
+modified: 1662758680558
+created: 1662755071017
+url: "{{ _.baseURL }}/todos"
+name: New Todo
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "Aprender NodeJS",
+    	"deadline": "2022-09-15"
+    }
+parameters: []
+headers:
+  - id: pair_8182c56a0f41421383dab4a737545ab5
+    name: username
+    value: LKZ
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_dae0f782edb24f348d9d43357e142d8e
+authentication: {}
+metaSortKey: -1662755071017
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

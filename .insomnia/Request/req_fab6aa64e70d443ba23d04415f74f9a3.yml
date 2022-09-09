@@ -1,0 +1,25 @@
+_id: req_fab6aa64e70d443ba23d04415f74f9a3
+type: Request
+parentId: wrk_4c014601e8de4ea2a1f24b082d761d3f
+modified: 1662758279707
+created: 1662754693649
+url: "{{ _.baseURL }}/todos"
+name: Todos
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_51e39eb606794244907d2b9b55fac8db
+    name: username
+    value: LKZ
+    description: ""
+authentication: {}
+metaSortKey: -1662754693649
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

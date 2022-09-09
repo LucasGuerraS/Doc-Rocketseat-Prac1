@@ -1,0 +1,38 @@
+_id: req_ff422ff429704b5ea9992d2c6f2955ad
+type: Request
+parentId: wrk_4c014601e8de4ea2a1f24b082d761d3f
+modified: 1662758686507
+created: 1662756204765
+url: "{{ _.baseURL }}/todos/d15a05c1-fc8e-4fb3-90ae-93f2d3818fd0"
+name: Alter Todo
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "ABCD",
+    	"deadline": "2022-11-22"
+    }
+parameters:
+  - id: pair_b21d1b7f6d07442fb89d297c818ee454
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5fd65f09769940d481cf7daf775bc134
+  - id: pair_4419778b85454a9e867ce07b21d79c0d
+    name: username
+    value: LKZ
+    description: ""
+authentication: {}
+metaSortKey: -1662756204765
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

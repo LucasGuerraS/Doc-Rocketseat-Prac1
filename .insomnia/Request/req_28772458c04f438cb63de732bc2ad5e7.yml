@@ -1,0 +1,25 @@
+_id: req_28772458c04f438cb63de732bc2ad5e7
+type: Request
+parentId: wrk_4c014601e8de4ea2a1f24b082d761d3f
+modified: 1662758049966
+created: 1662757875825
+url: "{{ _.baseURL }}/todos/eae12bb9-4ddc-47f0-aa10-3b9d6e297fc6"
+name: Delete Todo
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_8a52a1561e1b492a820221575d6d8f0d
+    name: username
+    value: LKZ
+    description: ""
+authentication: {}
+metaSortKey: -1662757875825
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
